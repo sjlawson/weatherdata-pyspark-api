@@ -1,0 +1,8 @@
+*.py[cod]
+venv/
+.~*
+.idea/
+.vim/
+.vscode/
+.mypy_cache/
+*.sqlite
