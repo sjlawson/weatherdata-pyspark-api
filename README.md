@@ -32,7 +32,7 @@ from the program root, `src`, with a single command `docker-compose up`
 - `docker-compose up`
 - ... wait as container builds and starts, runs data pipeline tasks: ingestion, and analysis
 - run tests:
-  - `docker exec -it weatherdata-pyspark-api_flask-app-server_1 pytest tests`
+  - `docker exec -it weatherdata-pyspark-api-flask-app-server-1 pytest tests`
 - check api in browser at urls:
   - http://0.0.0.0:5000/api/weather/
   - http://0.0.0.0:5000/api/weather/stats
